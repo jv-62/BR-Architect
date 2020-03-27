@@ -1,0 +1,164 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    padding: 5px;
+    margin: -15px;
+    font-size: 17px;
+}
+
+nav {
+    box-shadow: 0.5px 0.5px 10px grey;
+}
+
+.align-right {
+    margin-left: 10px;
+    letter-spacing: 4px;
+}
+
+.navbar-brand:hover {
+    background-color: lightgrey;
+}
+
+.navbar-nav li {
+    margin-right: 25px;
+}
+
+.nav-item {
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+
+.nav-item:hover {
+    background-color: lightgrey;
+}
+
+.Architects-center {
+    text-align: center;
+    color: white;
+    background-image: url(london-3833039.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 25%;
+}
+
+.black-br {
+    background-color: black;
+    opacity: 0.5;
+    padding: 5px 10px;
+}
+
+.black-br h1 {
+    opacity: 1;
+}
+
+/* main content Project */
+
+.Projects {
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+/* About */
+
+.card-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-page {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-page h1 {
+    margin: 50px 0px;
+}
+
+.about-page p {
+    margin: 50px 0px;
+    text-align: justify;
+}
+
+.card-group .card {
+    margin-right: 15px;
+    border: none;
+}
+
+.card-group .card-body {
+    margin: -15px;
+}
+
+.card .card-Contact {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.card .card-Contact:hover {
+    background-color: lightgrey;
+}
+
+.card-Contact {
+    text-align: center;
+}
+
+/* Contact */
+
+.contact-form {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-form h1 {
+    margin: 50px 0px;
+}
+
+.contact-form p {
+    margin-bottom: -5px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 7px;
+}
+
+.contact-form button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+}
+
+.map-page img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .project-images img {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .navbar-brand {
+        font-size: 15px;
+    }
+}
