@@ -1,2 +1,2 @@
-# jv-62-BR-Architect.github.io
-A static website build using bootstrap HTML and CSS.
+# BR-Architect
+A static website build using HTML, css and bootstrap.
